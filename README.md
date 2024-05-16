@@ -1,29 +1,33 @@
 # Project1
 BIRTH RATE AND THE COLLAPSE OF A NATION!
 
-Priscilla - What is the relationship between births and women pursuing higher education?
-The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. (GRAPH) 
+## Priscilla - What is the relationship between births and women pursuing higher education?
+The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. 
 
 ![alt text](Images/everything.PNG)
 
 The correlational analysis on the relationship between crude birth rate and varying levels of education had fairly high r values, all over 0.6. The correlation table contained the following results: 
-Birth rate and women with less than a high school diploma (r = 0.64), had a positive correlation. 
-Birth rate and women who graduated high school but didnt got to college (r = 0.86), had a strong positive correlation. Meaning that both births and women who didnt go to college decreased over the years at similar rates. 
-Birth rate and women who had some college or associate's degree (r = -0.65), had a negative correlation. 
-Birth rate and women who had a bachelor's degree and higher (r = -0.86), had a strong negative correlation.
-The strong negative correlation between birth rate and women with bachelors degrees or higher was the most salient of the above correlations. It shows a strong relationship between higher education and a decrease in birth rates. Further analysis and charts were done on those two variables in a dataframe titled birth_women_core. (GRAPH) 
+- Birth rate and women with less than a high school diploma (r = 0.64), had a positive correlation. 
+- Birth rate and women who graduated high school but didnt got to college (r = 0.86), had a strong positive correlation. Meaning that both births and women who didnt go to college decreased over the years at similar rates. 
+- Birth rate and women who had some college or associate's degree (r = -0.65), had a negative correlation. 
+- Birth rate and women who had a bachelor's degree and higher (r = -0.86), had a strong negative correlation.
+The strong negative correlation between birth rate and women with bachelors degrees or higher was the most salient of the above correlations. It shows a strong relationship between higher education and a decrease in birth rates. Further analysis and charts were done on those two variables in a dataframe titled birth_women_core. 
 
 ![alt text](Images/birthratebachleors.PNG)
 
 ![alt text](Images/crudebirthdegree.PNG)
 
-Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a women gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between woman pursuing a bachelors degree or higher and the mean birth age. (GRAPH)
+Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a woman gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between women pursuing a bachelors degree or higher and the mean birth age.
 
 ![alt text](Images/MeanAgeatbirthdegree.PNG)
 
-Finally, I merged the birth_women_core dataframe, which contained birth rate and percentage of women with a bachelors degree or higher, with the mean age women gave birth dataframe. Between these three variables the correlational analysis revealed that birth rate and women’s mean age when they gave birth (r = - 0.88), had a strong negative correlation. The other correlation values were mentioned above. The line graph below shows these 3 variables over the years, each with strong correlations to birth rate. 
+Finally, I merged the birth_women_core dataframe, which contained birth rate and percentage of women with a bachelors degree or higher, with the mean age women gave birth dataframe. Between these three variables the correlational analysis revealed that birth rate and women’s mean age when they gave birth (r = - 0.88), had a strong negative correlation. The heatmap below shows the correlations between these 3 main variables and the line graph below shows these 3 variables over the years. 
+![download](https://github.com/ElphysAlvarez01/Project1/assets/162905470/47d061db-1223-4189-9aef-56d0425eecc8)
+![download-4](https://github.com/ElphysAlvarez01/Project1/assets/162905470/d76edbf6-e679-4990-a36f-f0f4108f4df3)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Mike
+## Mike 
 
 ![alt text](Images/chartGDP.PNG)
 
