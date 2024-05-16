@@ -1,10 +1,36 @@
 # Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION!
 
+## Project Overview 
+Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), 
+
+### Where is our data from?
+- We all used birth rate data from Fred, Federal Reserve Economic Data. FRED is an online database consisting of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.
+- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD), (ADD ANY OTHERS USED)
+
+## Technologies Used
+- Python
+- Pandas for data manipulation.
+- Matplotlib for visualizations.
+- Prophet for time series forecasting.
+- Google colab to use prophet.
+- Google chrome to organize our collaborative data and presentation before committing it to git. 
+
+## How to navigate through our git project: 
+Each of us had a git branch we used to commit our changes. All branches are now merged to main. Each group member has a folder with their name on. Within that folder you will find 3 directories: Datasets, Analysis, and Visuals. Therefore, to run the analysis using python in your local machine you would: (1) git clone this project to your local. (2) Navigate and cd into a group member folder. (3) Cd into the analysis folder and refer to the dataset folder when required to import csv data. 
+
 ## The Group 6 Approach 
+Our approach to answer our main question "Why is birth rate decreasing?" consisted of individually looking for different variables we thought could affect birth rate and independently running analysis on birth rate and our chosen variables. Instead of everyone working on two to three main variables, we instead all used birth rate and each had one to two variables we used for analysis. In this way, each of us had mini projects we added to this main project to form a cohesive narrative to answer our principle question. From our main question, we each had subquestions related to birth rate. The group member name and subquestion is as follows: 
+- Elphys: What is the relationship between births and U.S Income & Home Affordability & Consumer Sentiment??
+- Eric: Whats the relationship between birth rates and alcohol consumption/isolation?
+- Priscilla: What is the relationship between births and women pursuing higher education & the mean age women give birth?
+- Michael: Whats the relationship between birth rates and marriages/Family Benefit Spending of GDP?
+- Josephine: Whats the relationship between birth rate and inflation & US GDP? 
 
 
-## Executive Summary - Where are we headed?
-Priscilla ran a prophet analysis using google colab to forecast birth rate for the next 20 years, from 2020 - 2040. Note, our birth rate data went up to 2019 which is why the 20 year forecast starts in 2020. 
+## Birth Rate Description 
+The variable we all used for our analysis was birth rate. It is imperative to define here, what is birth rate? From the Fred database where we gathered our data, the definition is as follows "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration." 
+### Where are we headed?
+Priscilla ran a prophet analysis using google colab to forecast birth rate for the next 20 years, from 2020 - 2040. Note, our birth rate data went up to 2019 which is why the 20 year forecast starts in 2020. The 2019 birth rate was at 11.4 and the last data point in the forecast, 2040, is predicted to have a birth rate of 8.02. According to this analysis birth rate in the United States is expected to continue to decline at a steady rate over the next 36 years. 
 
 ![download-1](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9511eb7a-550b-4e6e-b3f7-7fa8dbb00265)
 
