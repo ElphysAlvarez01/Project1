@@ -1,10 +1,17 @@
-# Project1
-BIRTH RATE AND THE COLLAPSE OF A NATION!
+# Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION!
+
+## The Group 6 Approach 
+
+
+## Executive Summary - Where are we headed?
+Priscilla ran a prophet analysis using google colab to forecast birth rate for the next 20 years, from 2020 - 2040. Note, our birth rate data went up to 2019 which is why the 20 year forecast starts in 2020. 
+
+![download-1](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9511eb7a-550b-4e6e-b3f7-7fa8dbb00265)
 
 ## Priscilla - What is the relationship between births and women pursuing higher education?
 The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. 
 
-![alt text](Images/everything.PNG)
+![download-7](https://github.com/ElphysAlvarez01/Project1/assets/162905470/d00c8155-c484-46e3-9a38-6e3c7282c43b)
 
 The correlational analysis on the relationship between crude birth rate and varying levels of education had fairly high r values, all over 0.6. The correlation table contained the following results: 
 - Birth rate and women with less than a high school diploma (r = 0.64), had a positive correlation. 
@@ -13,9 +20,8 @@ The correlational analysis on the relationship between crude birth rate and vary
 - Birth rate and women who had a bachelor's degree and higher (r = -0.86), had a strong negative correlation.
 The strong negative correlation between birth rate and women with bachelors degrees or higher was the most salient of the above correlations. It shows a strong relationship between higher education and a decrease in birth rates. Further analysis and charts were done on those two variables in a dataframe titled birth_women_core. 
 
-![alt text](Images/birthratebachleors.PNG)
-
-![alt text](Images/crudebirthdegree.PNG)
+![download-5](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9c3beed9-d14a-4d95-91dc-e452d72cb0f5)
+![download-6](https://github.com/ElphysAlvarez01/Project1/assets/162905470/b48e90fd-1003-4200-b7a8-6b6c911be85b)
 
 Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a woman gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between women pursuing a bachelors degree or higher and the mean birth age.
 
