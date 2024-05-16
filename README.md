@@ -1,11 +1,12 @@
 # Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION!
 
 ## Project Overview 
-Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), 
+Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), Annual Income 25 to 34 (r = -0.94) & Annual Home SalePrice (r = -0.93).
+
 
 ### Where is our data from?
 - We all used birth rate data from Fred, Federal Reserve Economic Data. FRED is an online database consisting of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.
-- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD), (ADD ANY OTHERS USED)
+- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD). 
 
 ## Technologies Used
 - Python
@@ -20,7 +21,7 @@ Each of us had a git branch we used to commit our changes. All branches are now 
 
 ## The Group 6 Approach 
 Our approach to answer our main question "Why is birth rate decreasing?" consisted of individually looking for different variables we thought could affect birth rate and independently running analysis on birth rate and our chosen variables. Instead of everyone working on two to three main variables, we instead all used birth rate and each had one to two variables we used for analysis. In this way, each of us had mini projects we added to this main project to form a cohesive narrative to answer our principle question. From our main question, we each had subquestions related to birth rate. The group member name and subquestion is as follows: 
-- Elphys: What is the relationship between births and U.S Income & Home Affordability & Consumer Sentiment??
+- Elphys: What is the relationship between births and U.S Income & Home Affordability & Consumer Sentiment?
 - Eric: Whats the relationship between birth rates and alcohol consumption/isolation?
 - Priscilla: What is the relationship between births and women pursuing higher education & the mean age women give birth?
 - Michael: Whats the relationship between birth rates and marriages/Family Benefit Spending of GDP?
