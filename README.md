@@ -52,7 +52,13 @@ Income data included were the following:
  
 - U.S. Medium Home Sale Price & U.S. Medium Household Income was used to create a ratio by dividing the two amounts. Results showed that unaffordability has been as its highest with the strongest acceleration occurring after 2020.
 
+## Med Home Sale Price to Med Household Annual Income Disparity with Birth Rate Strongest Negative Percentage Change in Red:
+
 ![Screenshot 2024-05-16 at 8 53 52 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/358b5668-a036-47c9-a791-03a98595df66)
+
+## Med Home Sale Price to Med Household Annual Income Ratio:
+- This shows unaffordability being at it's highest at the current moment.
+![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
 
 ### Correlations Found
 - Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
