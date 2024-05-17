@@ -38,11 +38,17 @@ Priscilla ran a prophet analysis using google colab to forecast birth rate for t
 ## Elphys 
 Elphys concentrated on analyzing birth rate with Economic Indicators such as Income, Home Sale Price, And Income-to-Home Sale Price Ratio, as well as Consumer Sentiment. During the exploratory analysis of Birth Rate, we identified that Top 5 years with the strongest negative percentage change were between 1965 – 1973. This was the start of the acceleration of birth rate decline. Although birth rate has continued to decline without an improvement in site, the acceleration has mitigated.
 
+![Screenshot 2024-05-16 at 9 36 25 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/cfc2d08a-9c2b-43eb-bef2-3a18275aadf4)
+
+
 ![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
 
 ### Income:
 Income data included were the following:
 - U.S. Annual Income for individuals 25-34 years old. – Although Income for this group has increased, affordability to buy a home and build a family has not improved. In fact, it has gotten worst in recent years.
+
+ ![Screenshot 2024-05-16 at 9 39 17 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/66debb06-d3db-4458-9f0c-7388f090c7f7)
+
  
 - U.S. Medium Home Sale Price & U.S. Medium Household Income was used to create a ratio by dividing the two amounts. Results showed that unaffordability has been as its highest with the strongest acceleration occurring after 2020.
 
