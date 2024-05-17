@@ -49,11 +49,11 @@ Income data included were the following:
  
 - U.S. Medium Home Sale Price & U.S. Medium Household Income was used to create a ratio by dividing the two amounts. Results showed that unaffordability has been as its highest with the strongest acceleration occurring after 2020.
 
-## Med Home Sale Price to Med Household Annual Income Disparity with Birth Rate Strongest Negative Percentage Change in Red:
+### Med Home Sale Price to Med Household Annual Income Disparity with Birth Rate Strongest Negative Percentage Change in Red:
 
 ![Screenshot 2024-05-16 at 8 53 52 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/358b5668-a036-47c9-a791-03a98595df66)
 
-## Med Home Sale Price to Med Household Annual Income Ratio:
+### Med Home Sale Price to Med Household Annual Income Ratio:
 - This shows unaffordability being at it's highest at the current moment.
 ![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
 
@@ -63,7 +63,7 @@ Income data included were the following:
 - Correlation between BirthRate and Annual_Home_SalePrice: -0.93 (p-value: 0.0000)
 - Correlation between Price_to_Income_Ratio and BirthRate: -0.77 (p-value: 0.0000)
 
-## Consumer Sentiment
+### Consumer Sentiment
 Consumer Sentiment was also assessed to understand it’s relationship with Birth Rate. There was no relationship between consumer sentiment and Annual Income (25-34 year olds), U.S. Annual Household Income, and Median Home Sale Price. However, there was a relationship between consumer sentiment and the percentage change year-over-year in Birth Rate and Income for 25-34 year olds.
 ·   	Correlation between ConsumerSentiment and BirthRate_PercentageChange: 0.35 (p-value: 0.0328)
 ·   	Correlation between ConsumerSentiment and Income25to24_Percentage_Change: 0.46 (p-value: 0.0039)
@@ -71,6 +71,14 @@ Consumer Sentiment was also assessed to understand it’s relationship with Birt
 ![Screenshot 2024-05-16 at 8 53 34 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/db5ad407-e559-4d05-9e7e-da8e1f5588ae)
 
 <img width="729" alt="Screen Shot 2024-05-16 at 10 34 39 PM" src="https://github.com/ElphysAlvarez01/Project1/assets/50891953/0f541436-b553-45eb-82eb-abdfb9496f82">
+
+## Josephine - What is the correlation between birth rate against inflation and GDP?
+
+The first visual shows the correlation between birth rate and GDP, while the second is birth rate and inflation. Between 1970 and 2020 we have seen the birth rates go down, along with the state of the economy. The GDP and birth rate have a positive correlation of 0.47, while CCPI and birth rate have a positive correlation of 0.55. With both positive correlations, we can say it’s likely that a higher cost of living is contributing to people having kids. 
+
+![visual1](https://github.com/ElphysAlvarez01/Project1/assets/143913881/40b2d1b9-b776-4338-bcbe-5ad7c14e122e)
+![HEATMAP](https://github.com/ElphysAlvarez01/Project1/assets/143913881/2e7bad0d-0ff6-4c05-b5db-7993b79ee2e3)
+
 
 ## Priscilla - What is the relationship between births and women pursuing higher education?
 The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. 
