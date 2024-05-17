@@ -1,7 +1,7 @@
-# Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION!
+# Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION.
 
 ## Project Overview 
-Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), Annual Income 25 to 34 (r = -0.94) & Annual Home SalePrice (r = -0.93).
+Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, female education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), Annual Income 25 to 34 (r = -0.94) & Annual Home SalePrice (r = -0.93).
 
 
 ### Where is our data from?
