@@ -101,3 +101,15 @@ What's the relationship between birth rate and Family Benefit Spending of GDP?
 This is an interesting one, GDP was consistent for ten years so did the birth rate and the marriage rate was slowly declining. Looks like in 1990 there was some sort of increase in spending for the Family Spending GDP and the birth rate at peak just declined rapidly! With the marriage rate declining at a steady pace. Seems like after 1990 the marriage and birth rate would not find recovery. 1990 seems to be the culprit for why there is a rapid decline, after this GDP had no effect on the birth rate or marriage rate. We can see it increased from 1990 to 2004 then declined until Covid in 2020 when there was a steady spike to increase. This did not change the birth rate. 
 
 In conclusion there is a correlation between marriage and birth rate, most of us want to be married in order to have a child. But according to the data GDP has nothing to do with birth rate. Maternity Leave obviously does not change much because there is no data, but it would be interesting to see if that was a right to mothers and fathers and funded by our Government. Would that help the birth rate increase? In my opinion I think so but we shall see when the data is updated in 2025. 
+
+## Results 
+In conclusion, we found several variables that are likely to contribute to the decreasing birth rate in the United States. Below please find a summary of the correlations we found with birth rate. 
+- Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
+- Correlation between BirthRate and US_Annual_Income: -0.95 (p-value: 0.0000)
+- Correlation between BirthRate and Annual_Home_SalePrice: -0.93 (p-value: 0.0000)
+- Correlation between Price_to_Income_Ratio and BirthRate: -0.77 (p-value: 0.0000)
+- Correlation between ConsumerSentiment and BirthRate_PercentageChange: 0.35 (p-value: 0.0328)
+- Correlation between BirthRate and CCPI (consumer inflation): 0.55
+- Correlation between BirthRate and GDP: .47
+- Correlation between Birth rate and women who had a bachelor's degree and higher: -0.86
+- Correlation between birth rate and women’s mean age when they gave birth: - 0.88 
