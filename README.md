@@ -40,9 +40,6 @@ Elphys concentrated on analyzing birth rate with Economic Indicators such as Inc
 
 ![Screenshot 2024-05-16 at 9 36 25 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/cfc2d08a-9c2b-43eb-bef2-3a18275aadf4)
 
-
-![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
-
 ### Income:
 Income data included were the following:
 - U.S. Annual Income for individuals 25-34 years old. – Although Income for this group has increased, affordability to buy a home and build a family has not improved. In fact, it has gotten worst in recent years.
