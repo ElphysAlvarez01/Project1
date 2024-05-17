@@ -29,11 +29,38 @@ Our approach to answer our main question "Why is birth rate decreasing?" consist
 
 
 ## Birth Rate Description 
-The variable we all used for our analysis was birth rate. It is imperative to define here, what is birth rate? From the Fred database where we gathered our data, the definition is as follows "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration." 
+The variable we all used for our analysis was birth rate. It is imperative to define here, what is birth rate? From the Fred database where we gathered our data, the definition is as follows "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear." 
 ### Where are we headed?
 Priscilla ran a prophet analysis using google colab to forecast birth rate for the next 20 years, from 2020 - 2040. Note, our birth rate data went up to 2019 which is why the 20 year forecast starts in 2020. The 2019 birth rate was at 11.4 and the last data point in the forecast, 2040, is predicted to have a birth rate of 8.02. According to this analysis birth rate in the United States is expected to continue to decline at a steady rate over the next 36 years. 
 
 ![download-1](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9511eb7a-550b-4e6e-b3f7-7fa8dbb00265)
+
+## Elphys 
+Elphys concentrated on analyzing birth rate with Economic Indicators such as Income, Home Sale Price, And Income-to-Home Sale Price Ratio, as well as Consumer Sentiment. During the exploratory analysis of Birth Rate, we identified that Top 5 years with the strongest negative percentage change were between 1965 – 1973. This was the start of the acceleration of birth rate decline. Although birth rate has continued to decline without an improvement in site, the acceleration has mitigated.
+
+![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
+
+### Income:
+Income data included were the following:
+- U.S. Annual Income for individuals 25-34 years old. – Although Income for this group has increased, affordability to buy a home and build a family has not improved. In fact, it has gotten worst in recent years.
+ 
+- U.S. Medium Home Sale Price & U.S. Medium Household Income was used to create a ratio by dividing the two amounts. Results showed that unaffordability has been as its highest with the strongest acceleration occurring after 2020.
+
+![Screenshot 2024-05-16 at 8 53 52 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/358b5668-a036-47c9-a791-03a98595df66)
+
+### Correlations Found
+- Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
+- Correlation between BirthRate and US_Annual_Income: -0.95 (p-value: 0.0000)
+- Correlation between BirthRate and Annual_Home_SalePrice: -0.93 (p-value: 0.0000)
+- Correlation between Price_to_Income_Ratio and BirthRate: -0.77 (p-value: 0.0000)
+
+## Consumer Sentiment
+Consumer Sentiment was also assessed to understand it’s relationship with Birth Rate. There was no relationship between consumer sentiment and Annual Income (25-34 year olds), U.S. Annual Household Income, and Median Home Sale Price. However, there was a relationship between consumer sentiment and the percentage change year-over-year in Birth Rate and Income for 25-34 year olds.
+·   	Correlation between ConsumerSentiment and BirthRate_PercentageChange: 0.35 (p-value: 0.0328)
+·   	Correlation between ConsumerSentiment and Income25to24_Percentage_Change: 0.46 (p-value: 0.0039)
+
+![Screenshot 2024-05-16 at 8 53 34 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/db5ad407-e559-4d05-9e7e-da8e1f5588ae)
+
 
 ## Priscilla - What is the relationship between births and women pursuing higher education?
 The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. 
