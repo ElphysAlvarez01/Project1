@@ -1,29 +1,111 @@
-# Project1
-BIRTH RATE AND THE COLLAPSE OF A NATION!
+# Project 1: BIRTH RATE AND THE COLLAPSE OF A NATION.
 
-Priscilla - What is the relationship between births and women pursuing higher education?
-The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. (GRAPH) 
+## Project Overview 
+Our group set out to answer this question: Why is birth rate decreasing in America? We decided to look at various variables that could contribute to this decline, including: housing affordability, alcohol consumption, loneliness, marriages, female education, and more. Ultimately, we found the strongest correlation between birth rate and:  women pursuing higher education (r= 0.86), Annual Income 25 to 34 (r = -0.94) & Annual Home SalePrice (r = -0.93).
 
-![alt text](Images/everything.PNG)
+
+### Where is our data from?
+- We all used birth rate data from Fred, Federal Reserve Economic Data. FRED is an online database consisting of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.
+- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD). 
+
+## Technologies Used
+- Python
+- Pandas for data manipulation.
+- Matplotlib for visualizations.
+- Prophet for time series forecasting.
+- Google colab to use prophet.
+- Google chrome to organize our collaborative data and presentation before committing it to git. 
+
+## How to navigate through our git project: 
+Each of us had a git branch we used to commit our changes. All branches are now merged to main. Each group member has a folder with their name on. Within that folder you will find 3 directories: Datasets, Analysis, and Visuals. Therefore, to run the analysis using python in your local machine you would: (1) git clone this project to your local. (2) Navigate and cd into a group member folder. (3) Cd into the analysis folder and refer to the dataset folder when required to import csv data. 
+
+## The Group 6 Approach 
+Our approach to answer our main question "Why is birth rate decreasing?" consisted of individually looking for different variables we thought could affect birth rate and independently running analysis on birth rate and our chosen variables. Instead of everyone working on two to three main variables, we instead all used birth rate and each had one to two variables we used for analysis. In this way, each of us had mini projects we added to this main project to form a cohesive narrative to answer our principle question. From our main question, we each had subquestions related to birth rate. The group member name and subquestion is as follows: 
+- Elphys: What is the relationship between births and U.S Income & Home Affordability & Consumer Sentiment?
+- Eric: Whats the relationship between birth rates and alcohol consumption/isolation?
+- Priscilla: What is the relationship between births and women pursuing higher education & the mean age women give birth?
+- Michael: Whats the relationship between birth rates and marriages/Family Benefit Spending of GDP?
+- Josephine: Whats the relationship between birth rate and inflation & US GDP? 
+
+
+## Birth Rate Description 
+The variable we all used for our analysis was birth rate. It is imperative to define here, what is birth rate? From the Fred database where we gathered our data, the definition is as follows "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear." 
+### Where are we headed?
+Priscilla ran a prophet analysis using google colab to forecast birth rate for the next 20 years, from 2020 - 2040. Note, our birth rate data went up to 2019 which is why the 20 year forecast starts in 2020. The 2019 birth rate was at 11.4 and the last data point in the forecast, 2040, is predicted to have a birth rate of 8.02. According to this analysis birth rate in the United States is expected to continue to decline at a steady rate over the next 36 years. 
+
+![download-1](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9511eb7a-550b-4e6e-b3f7-7fa8dbb00265)
+
+## Elphys 
+Elphys concentrated on analyzing birth rate with Economic Indicators such as Income, Home Sale Price, And Income-to-Home Sale Price Ratio, as well as Consumer Sentiment. During the exploratory analysis of Birth Rate, we identified that Top 5 years with the strongest negative percentage change were between 1965 – 1973. This was the start of the acceleration of birth rate decline. Although birth rate has continued to decline without an improvement in site, the acceleration has mitigated.
+
+![Screenshot 2024-05-16 at 9 36 25 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/cfc2d08a-9c2b-43eb-bef2-3a18275aadf4)
+
+### Income:
+Income data included were the following:
+- U.S. Annual Income for individuals 25-34 years old. – Although Income for this group has increased, affordability to buy a home and build a family has not improved. In fact, it has gotten worst in recent years.
+
+ ![Screenshot 2024-05-16 at 9 39 17 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/66debb06-d3db-4458-9f0c-7388f090c7f7)
+
+ 
+- U.S. Medium Home Sale Price & U.S. Medium Household Income was used to create a ratio by dividing the two amounts. Results showed that unaffordability has been as its highest with the strongest acceleration occurring after 2020.
+
+### Med Home Sale Price to Med Household Annual Income Disparity with Birth Rate Strongest Negative Percentage Change in Red:
+
+![Screenshot 2024-05-16 at 8 53 52 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/358b5668-a036-47c9-a791-03a98595df66)
+
+### Med Home Sale Price to Med Household Annual Income Ratio:
+- This shows unaffordability being at it's highest at the current moment.
+![Screenshot 2024-05-16 at 8 54 12 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/39149fc7-04c6-4948-b206-bb519bf211fb)
+
+### Correlations Found
+- Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
+- Correlation between BirthRate and US_Annual_Income: -0.95 (p-value: 0.0000)
+- Correlation between BirthRate and Annual_Home_SalePrice: -0.93 (p-value: 0.0000)
+- Correlation between Price_to_Income_Ratio and BirthRate: -0.77 (p-value: 0.0000)
+
+### Consumer Sentiment
+Consumer Sentiment was also assessed to understand it’s relationship with Birth Rate. There was no relationship between consumer sentiment and Annual Income (25-34 year olds), U.S. Annual Household Income, and Median Home Sale Price. However, there was a relationship between consumer sentiment and the percentage change year-over-year in Birth Rate and Income for 25-34 year olds.
+·   	Correlation between ConsumerSentiment and BirthRate_PercentageChange: 0.35 (p-value: 0.0328)
+·   	Correlation between ConsumerSentiment and Income25to24_Percentage_Change: 0.46 (p-value: 0.0039)
+
+![Screenshot 2024-05-16 at 8 53 34 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/db5ad407-e559-4d05-9e7e-da8e1f5588ae)
+
+<img width="729" alt="Screen Shot 2024-05-16 at 10 34 39 PM" src="https://github.com/ElphysAlvarez01/Project1/assets/50891953/0f541436-b553-45eb-82eb-abdfb9496f82">
+
+## Josephine - What is the correlation between birth rate against inflation and GDP?
+
+The first visual shows the correlation between birth rate and GDP, while the second is birth rate and inflation. Between 1970 and 2020 we have seen the birth rates go down, along with the state of the economy. The GDP and birth rate have a positive correlation of 0.47, while CCPI and birth rate have a positive correlation of 0.55. With both positive correlations, we can say it’s likely that a higher cost of living is contributing to people having kids. 
+
+![visual1](https://github.com/ElphysAlvarez01/Project1/assets/143913881/40b2d1b9-b776-4338-bcbe-5ad7c14e122e)
+![HEATMAP](https://github.com/ElphysAlvarez01/Project1/assets/143913881/2e7bad0d-0ff6-4c05-b5db-7993b79ee2e3)
+
+
+## Priscilla - What is the relationship between births and women pursuing higher education?
+The decline in birth rate in the United States may be attributed to the fact that women are working more and pursuing higher education. We hypothesized that birth rate decrease would be correlated with increase in women pursuing higher education. These data were downloaded from the  U.S. Bureau of Labor Statistics. The dataset included the total number of civilians in the labor force (individual ages 25 to 64) shown by the thousands for each year, from 1970 - 1991 and the other dataset contained the same data from 1992 - 2019. Next to the total civilians in labor force for that year, we were shown percentages of people with less than a high school diploma, High school graduates (no college), Some college or associate's degree, and Bachelor's degree and higher. Below that part of the table, the index is subdivided by gender for the same range of years and percentages of either men or women that fell into the four educational categories mentioned above. The first couple of cells in Priscilla’s jupyter notebook were dedicated to extracting only the women education data, from this dataset that also contained education totals and male education statistics. The analysis of just those data showed that women became much more likely to pursue higher levels of education in the past 50 years: In 1970 11% of women had a bachelors or higher and in 2019 45% of women had a bachelors or higher. Meaning, the proportion of women in the labor force ages 25 to 64 who held a college degree more than quadrupled. 
+
+![download-7](https://github.com/ElphysAlvarez01/Project1/assets/162905470/d00c8155-c484-46e3-9a38-6e3c7282c43b)
 
 The correlational analysis on the relationship between crude birth rate and varying levels of education had fairly high r values, all over 0.6. The correlation table contained the following results: 
-Birth rate and women with less than a high school diploma (r = 0.64), had a positive correlation. 
-Birth rate and women who graduated high school but didnt got to college (r = 0.86), had a strong positive correlation. Meaning that both births and women who didnt go to college decreased over the years at similar rates. 
-Birth rate and women who had some college or associate's degree (r = -0.65), had a negative correlation. 
-Birth rate and women who had a bachelor's degree and higher (r = -0.86), had a strong negative correlation.
-The strong negative correlation between birth rate and women with bachelors degrees or higher was the most salient of the above correlations. It shows a strong relationship between higher education and a decrease in birth rates. Further analysis and charts were done on those two variables in a dataframe titled birth_women_core. (GRAPH) 
+- Birth rate and women with less than a high school diploma (r = 0.64), had a positive correlation. 
+- Birth rate and women who graduated high school but didnt got to college (r = 0.86), had a strong positive correlation. Meaning that both births and women who didnt go to college decreased over the years at similar rates. 
+- Birth rate and women who had some college or associate's degree (r = -0.65), had a negative correlation. 
+- Birth rate and women who had a bachelor's degree and higher (r = -0.86), had a strong negative correlation.
+The strong negative correlation between birth rate and women with bachelors degrees or higher was the most salient of the above correlations. It shows a strong relationship between higher education and a decrease in birth rates. Further analysis and charts were done on those two variables in a dataframe titled birth_women_core. 
 
-![alt text](Images/birthratebachleors.PNG)
+![download-5](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9c3beed9-d14a-4d95-91dc-e452d72cb0f5)
+![download-6](https://github.com/ElphysAlvarez01/Project1/assets/162905470/b48e90fd-1003-4200-b7a8-6b6c911be85b)
 
-![alt text](Images/crudebirthdegree.PNG)
-
-Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a women gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between woman pursuing a bachelors degree or higher and the mean birth age. (GRAPH)
+Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a woman gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between women pursuing a bachelors degree or higher and the mean birth age.
 
 ![alt text](Images/MeanAgeatbirthdegree.PNG)
 
-Finally, I merged the birth_women_core dataframe, which contained birth rate and percentage of women with a bachelors degree or higher, with the mean age women gave birth dataframe. Between these three variables the correlational analysis revealed that birth rate and women’s mean age when they gave birth (r = - 0.88), had a strong negative correlation. The other correlation values were mentioned above. The line graph below shows these 3 variables over the years, each with strong correlations to birth rate. 
+Finally, I merged the birth_women_core dataframe, which contained birth rate and percentage of women with a bachelors degree or higher, with the mean age women gave birth dataframe. Between these three variables the correlational analysis revealed that birth rate and women’s mean age when they gave birth (r = - 0.88), had a strong negative correlation. The heatmap below shows the correlations between these 3 main variables and the line graph below shows these 3 variables over the years. 
+![download](https://github.com/ElphysAlvarez01/Project1/assets/162905470/47d061db-1223-4189-9aef-56d0425eecc8)
+![download-4](https://github.com/ElphysAlvarez01/Project1/assets/162905470/d76edbf6-e679-4990-a36f-f0f4108f4df3)
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Mike
+## Mike 
 
 ![alt text](Images/chartGDP.PNG)
 
@@ -37,3 +119,24 @@ What's the relationship between birth rate and Family Benefit Spending of GDP?
 This is an interesting one, GDP was consistent for ten years so did the birth rate and the marriage rate was slowly declining. Looks like in 1990 there was some sort of increase in spending for the Family Spending GDP and the birth rate at peak just declined rapidly! With the marriage rate declining at a steady pace. Seems like after 1990 the marriage and birth rate would not find recovery. 1990 seems to be the culprit for why there is a rapid decline, after this GDP had no effect on the birth rate or marriage rate. We can see it increased from 1990 to 2004 then declined until Covid in 2020 when there was a steady spike to increase. This did not change the birth rate. 
 
 In conclusion there is a correlation between marriage and birth rate, most of us want to be married in order to have a child. But according to the data GDP has nothing to do with birth rate. Maternity Leave obviously does not change much because there is no data, but it would be interesting to see if that was a right to mothers and fathers and funded by our Government. Would that help the birth rate increase? In my opinion I think so but we shall see when the data is updated in 2025. 
+
+## Eric
+There are a number of social factors that have affected the birth rate in America. I was tasked with researching drinking alcohol and living alone and the effects of those activities on the birth rate. 
+Drinking alcohol is a common social activity and a source of pleasure for many Americans, but it also poses significant health and social risks. According to the 2019 National Survey on Drug Use and Health, about 85% of adults in the U.S. reported that they had consumed alcohol at some point in their lifetime, 69% in the past year, and 55% in the past month. However, not all drinkers are alike in their patterns and preferences of alcohol consumption. These age groups coincide with the propensity to be more social, and the opportunity to drink too much.
+Additionally, the segment of our society that are in their prime child rearing years are also finding themselves living alone. According to the US Census single-person households went up from 13% in 1960 to 28% in 2019.
+The average age of women having a baby is around 26, while first time fathers tend to be about 31. The challenge that we have as a society is people that are in their “childbearing” years are not procreating enough to replace themselves. This has created a dearth of births. The lack of new people being born will have lasting ramifications for the social and economic futures of our country.
+
+## Results 
+In conclusion, we found several variables that are likely to contribute to the decreasing birth rate in the United States. Below please find a summary of the correlations we found with birth rate. 
+- Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
+- Correlation between BirthRate and US_Annual_Income: -0.95 (p-value: 0.0000)
+- Correlation between BirthRate and Annual_Home_SalePrice: -0.93 (p-value: 0.0000)
+- Correlation between Price_to_Income_Ratio and BirthRate: -0.77 (p-value: 0.0000)
+- Correlation between ConsumerSentiment and BirthRate_PercentageChange: 0.35 (p-value: 0.0328)
+- Correlation between BirthRate and CCPI (consumer inflation): 0.55
+- Correlation between BirthRate and GDP: .47
+- Correlation between Birth rate and women who had a bachelor's degree and higher: -0.86
+- Correlation between birth rate and women’s mean age when they gave birth: - 0.88 
+
+
+
