@@ -108,6 +108,12 @@ This is an interesting one, GDP was consistent for ten years so did the birth ra
 
 In conclusion there is a correlation between marriage and birth rate, most of us want to be married in order to have a child. But according to the data GDP has nothing to do with birth rate. Maternity Leave obviously does not change much because there is no data, but it would be interesting to see if that was a right to mothers and fathers and funded by our Government. Would that help the birth rate increase? In my opinion I think so but we shall see when the data is updated in 2025. 
 
+## Eric
+There are a number of social factors that have affected the birth rate in America. I was tasked with researching drinking alcohol and living alone and the effects of those activities on the birth rate. 
+Drinking alcohol is a common social activity and a source of pleasure for many Americans, but it also poses significant health and social risks. According to the 2019 National Survey on Drug Use and Health, about 85% of adults in the U.S. reported that they had consumed alcohol at some point in their lifetime, 69% in the past year, and 55% in the past month. However, not all drinkers are alike in their patterns and preferences of alcohol consumption. These age groups coincide with the propensity to be more social, and the opportunity to drink too much.
+Additionally, the segment of our society that are in their prime child rearing years are also finding themselves living alone. According to the US Census single-person households went up from 13% in 1960 to 28% in 2019.
+The average age of women having a baby is around 26, while first time fathers tend to be about 31. The challenge that we have as a society is people that are in their “childbearing” years are not procreating enough to replace themselves. This has created a dearth of births. The lack of new people being born will have lasting ramifications for the social and economic futures of our country.
+
 ## Results 
 In conclusion, we found several variables that are likely to contribute to the decreasing birth rate in the United States. Below please find a summary of the correlations we found with birth rate. 
 - Correlation between BirthRate and Annual_Income_25to34: -0.94 (p-value: 0.0000)
@@ -121,9 +127,4 @@ In conclusion, we found several variables that are likely to contribute to the d
 - Correlation between birth rate and women’s mean age when they gave birth: - 0.88 
 
 
-Eric
 
-There are a number of social factors that have affected the birth rate in America. I was tasked with researching drinking alcohol and living alone and the effects of those activities on the birth rate. 
-Drinking alcohol is a common social activity and a source of pleasure for many Americans, but it also poses significant health and social risks. According to the 2019 National Survey on Drug Use and Health, about 85% of adults in the U.S. reported that they had consumed alcohol at some point in their lifetime, 69% in the past year, and 55% in the past month. However, not all drinkers are alike in their patterns and preferences of alcohol consumption. These age groups coincide with the propensity to be more social, and the opportunity to drink too much.
-Additionally, the segment of our society that are in their prime child rearing years are also finding themselves living alone. According to the US Census single-person households went up from 13% in 1960 to 28% in 2019.
-The average age of women having a baby is around 26, while first time fathers tend to be about 31. The challenge that we have as a society is people that are in their “childbearing” years are not procreating enough to replace themselves. This has created a dearth of births. The lack of new people being born will have lasting ramifications for the social and economic futures of our country.
