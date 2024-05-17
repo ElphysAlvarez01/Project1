@@ -97,7 +97,8 @@ The strong negative correlation between birth rate and women with bachelors degr
 
 Shortly after running analysis on birth rate and womens education over the past 50 years I also became interested in the average age a woman gives births. I gathered these data from the Human Fertility Database (HFD). Interestingly, in about the 1970s the mean age women gave birth was 25 and in 2021 the mean age was 29-30 years old. I also hypothesized that the mean age women give birth had increased because the number of women pursuing higher education also increased and thus in their early 20s were focused on getting their degree(s) instead of starting a family. This hypothesis was supported by the analysis with a strong correlation of r = 0.98, between women pursuing a bachelors degree or higher and the mean birth age.
 
-![alt text](Images/MeanAgeatbirthdegree.PNG)
+![Screenshot 2024-05-17 at 12 29 38 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/9ca609d0-3050-4f6d-b681-12a077ba5d6a)
+
 
 Finally, I merged the birth_women_core dataframe, which contained birth rate and percentage of women with a bachelors degree or higher, with the mean age women gave birth dataframe. Between these three variables the correlational analysis revealed that birth rate and women’s mean age when they gave birth (r = - 0.88), had a strong negative correlation. The heatmap below shows the correlations between these 3 main variables and the line graph below shows these 3 variables over the years. 
 ![download](https://github.com/ElphysAlvarez01/Project1/assets/162905470/47d061db-1223-4189-9aef-56d0425eecc8)
@@ -107,7 +108,8 @@ Finally, I merged the birth_women_core dataframe, which contained birth rate and
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Mike 
 
-![alt text](Images/chartGDP.PNG)
+![Screenshot 2024-05-17 at 12 28 16 PM](https://github.com/ElphysAlvarez01/Project1/assets/162905470/e254c3d4-248a-4e05-be0e-aad31ae8d0db)
+
 
 The Graph Above:
 The graph is displaying the relationship between Maternity Leave, GDP Family Spending, Crude marriage rate and birth rate. We can see the marriage rate is decreasing and in conjunction the birth rate is rapidly declining with that. The Pen we do not see is Maternity Leave, that is because there is no funding federally from this benefit. We are seeing multiple issues especially for our future as a nation, not having babies is fundamentally the beginning of the collapse of The United States. This aided with less marriages and no support for full-time working mothers shows a lack of support from politicians. I am a Veteran so I understand lack of support and seeing the lack of support for mothers is shameful on our policy makers. This graph is showing a decline in everything except GDP Family Spending which has had a sharp increase. Maybe this is the Government incentive for the birth rate and marriage to increase.
