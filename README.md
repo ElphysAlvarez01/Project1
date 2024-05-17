@@ -73,3 +73,14 @@ What's the relationship between birth rate and Family Benefit Spending of GDP?
 This is an interesting one, GDP was consistent for ten years so did the birth rate and the marriage rate was slowly declining. Looks like in 1990 there was some sort of increase in spending for the Family Spending GDP and the birth rate at peak just declined rapidly! With the marriage rate declining at a steady pace. Seems like after 1990 the marriage and birth rate would not find recovery. 1990 seems to be the culprit for why there is a rapid decline, after this GDP had no effect on the birth rate or marriage rate. We can see it increased from 1990 to 2004 then declined until Covid in 2020 when there was a steady spike to increase. This did not change the birth rate. 
 
 In conclusion there is a correlation between marriage and birth rate, most of us want to be married in order to have a child. But according to the data GDP has nothing to do with birth rate. Maternity Leave obviously does not change much because there is no data, but it would be interesting to see if that was a right to mothers and fathers and funded by our Government. Would that help the birth rate increase? In my opinion I think so but we shall see when the data is updated in 2025. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Josephine - What is the correlation between birth rate against inflation and GDP?
+
+The first visual shows the correlation between birth rate and GDP, while the second is birth rate and inflation. Between 1970 and 2020 we have seen the birth rates go down, along with the state of the economy. The GDP and birth rate have a positive correlation of 0.47, while CCPI and birth rate have a positive correlation of 0.55. With both positive correlations, we can say it’s likely that a higher cost of living is contributing to people having kids. 
+
+![visual1](https://github.com/ElphysAlvarez01/Project1/assets/143913881/40b2d1b9-b776-4338-bcbe-5ad7c14e122e)
+![HEATMAP](https://github.com/ElphysAlvarez01/Project1/assets/143913881/2e7bad0d-0ff6-4c05-b5db-7993b79ee2e3)
+
+
