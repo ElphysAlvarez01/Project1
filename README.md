@@ -6,7 +6,7 @@ Our group set out to answer this question: Why is birth rate decreasing in Ameri
 
 ### Where is our data from?
 - We all used birth rate data from Fred, Federal Reserve Economic Data. FRED is an online database consisting of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.
-- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD). 
+- Other data sources used in this project include: OurWorldinData, U.S. Bureau of Labor Statistics, Human Fertility Database (HFD), and the World Bank. 
 
 ## Technologies Used
 - Python
