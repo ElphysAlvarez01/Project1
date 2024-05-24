@@ -72,12 +72,19 @@ Consumer Sentiment was also assessed to understand it’s relationship with Birt
 
 <img width="729" alt="Screen Shot 2024-05-16 at 10 34 39 PM" src="https://github.com/ElphysAlvarez01/Project1/assets/50891953/0f541436-b553-45eb-82eb-abdfb9496f82">
 
-## Josephine - What is the correlation between birth rate against inflation and GDP?
+## Josephine   -   What is the correlation between the US birth rates and inflation?
 
-The first visual shows the correlation between birth rate and GDP, while the second is birth rate and inflation. Between 1970 and 2020 we have seen the birth rates go down, along with the state of the economy. The GDP and birth rate have a positive correlation of 0.47, while CCPI and birth rate have a positive correlation of 0.55. With both positive correlations, we can say it’s likely that a higher cost of living is contributing to people having kids. 
+The first visual shows the correlation between US birth rate and US GDP, while the second shows correlations between US birth rate and multiple US Economic indicators. Between 1970 and 2020 we have seen the birth rates go down, along with the state of the economy. The GDP and birth rate have a positive correlation of 0.47, while CCPI and birth rate have a positive correlation of 0.55. Both of these correlations are positive, meaning there is a chance that US inflation is affecting the US birth rates, though this does not mean it is a direct cause.
 
 ![visual1](https://github.com/ElphysAlvarez01/Project1/assets/143913881/40b2d1b9-b776-4338-bcbe-5ad7c14e122e)
 ![HEATMAP](https://github.com/ElphysAlvarez01/Project1/assets/143913881/2e7bad0d-0ff6-4c05-b5db-7993b79ee2e3)
+___________________________________
+Additional visuals showing full data from 1970 - 2023:
+
+![SCATTER FINAL](https://github.com/ElphysAlvarez01/Project1/assets/143913881/535e2cf8-166c-44d0-acaf-952d4b207b6a)
+![LINE W: MARKER FINAL](https://github.com/ElphysAlvarez01/Project1/assets/143913881/7bea1b34-b34c-404c-b484-574682536724)
+![LINE FINAL](https://github.com/ElphysAlvarez01/Project1/assets/143913881/7733aac1-1466-4fee-bae9-2b18c83db1d1)
+![HEATMAP FINAL](https://github.com/ElphysAlvarez01/Project1/assets/143913881/46a390c5-8a27-4cb4-81ad-e8ef1e22e61b)
 
 
 ## Priscilla - What is the relationship between births and women pursuing higher education?
